@@ -1,9 +1,12 @@
 html, body {
     margin: 10;
     padding: 10;
+    background: #8ecfbe;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .grid {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     width: 200px;
@@ -21,5 +24,35 @@ html, body {
 }
 
 .apple {
+
     background-color: blue;
+}
+.sec{
+    
+    margin: auto;
+    width: 40%;
+    background:#c9fff1;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+h1,h2{
+    text-align:center;
+    
+}
+#start{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding:5px 10px;
+    font-size: xx-large;
+    font-family: 'Quicksand', sans-serif;
+    border:none;
+    background:#d6c9ff;
+    border-radius: 10px;
+}
+#start:hover{
+    color: whitesmoke;
+    background:rgba(65, 122, 255, 0.816);
+    transform: scale(1.5);
 }
